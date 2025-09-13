@@ -1,0 +1,52 @@
+.img{
+  width:100%;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr );
+}
+
+.heading{
+  margin: 0rem 0rem 1.5rem;
+}
+
+.container{
+  margin: 9rem;
+  /* padding: 2rem; */
+}
+
+.litem{
+  width: auto;
+  list-style: none;
+  border: 0.1px solid black;
+  margin: 2rem;
+}
+
+.content{
+  padding: 0.5rem;
+  color: gray;
+}
+
+.button{
+  background-color: rgb(0, 0, 96);
+  border: rgb(0, 0, 34);
+  padding: 5px;
+}
+
+.link{
+  text-decoration: none;
+  color: beige;
+}
+
+.heading{
+  color: black;
+}
+
+.avg{
+  color: rgb(47, 255, 0);
+}
+
+.hit{
+  color: red;
+}
