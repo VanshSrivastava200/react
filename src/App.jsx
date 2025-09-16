@@ -1,6 +1,7 @@
 import {Seriesa} from "./components/Series";
 import {Buttons} from './components/Buttons'
 // import Profile from "./components/Profile";
+import Use from "./components/Use";
 import styles from './components/index.module.css'
 // import './index.css'
 export const App=()=>{
@@ -9,7 +10,8 @@ export const App=()=>{
       {/* <h1 className={styles.heading}>Netflix Series</h1> */}
       {/* <Seriesa/> */}
       {/* <Profile/> */}
-      < Buttons onClick={clickchild}/>
+      {/* < Buttons onClick={clickchild}/> */}
+      <Use/>
     </div>
   );
 };

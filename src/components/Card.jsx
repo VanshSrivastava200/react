@@ -7,7 +7,7 @@ export const Card = ({Curelem}) => {
     color : "yellow",
     fontSize : "1.8rem"
   })
-  const {id,name,img_url,rating,description,genre,watch_url} = Curelem;
+  const {id,name,img_url,rating, description,genre,watch_url} = Curelem;
   let col=rating>=8.5?"hit":"avg"
   return (
     <li key={id} className={styles.litem}>
