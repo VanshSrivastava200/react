@@ -2,6 +2,7 @@ import {Seriesa} from "./components/Series";
 import {Buttons} from './components/Buttons'
 // import Profile from "./components/Profile";
 import Use from "./components/Use";
+import Diss from "./components/Diss";
 import styles from './components/index.module.css'
 // import './index.css'
 export const App=()=>{
@@ -11,11 +12,12 @@ export const App=()=>{
       {/* <Seriesa/> */}
       {/* <Profile/> */}
       {/* < Buttons onClick={clickchild}/> */}
-      <Use/>
+      {/* <Use/> */}
+      {/* <Diss/> */}
     </div>
   );
 };
-function clickchild(event){
-    event.stopPropagation()
-    console.log("Child clicked")
-}
+// function clickchild(event){
+//     event.stopPropagation()
+//     console.log("Child clicked")
+// }

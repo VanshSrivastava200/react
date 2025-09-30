@@ -8,7 +8,7 @@ const Use=()=>{
     {name:"Ann" , age:30},
     {name:"James" , age:46},]
     )
-
+ 
     return(
         <div>
             <h1>User List</h1>
